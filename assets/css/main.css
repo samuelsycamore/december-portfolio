@@ -286,6 +286,19 @@ input, select, textarea {
 
 /* Row */
 
+	.flex-container {
+		display: flex;
+		align-items: top;
+		flex-wrap: wrap;
+		gap: 50px;
+		justify-content: center;
+	}
+
+	.flex-form, .flex-text {
+		width: 40%;
+		min-width: 350px;
+	}
+
 	.row {
 		display: flex;
 		flex-wrap: wrap;
